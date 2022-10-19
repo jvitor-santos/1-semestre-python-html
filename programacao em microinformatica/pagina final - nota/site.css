@@ -1,0 +1,70 @@
+	body{
+		background-attachment: fixed,scroll;
+		text-transform:lowercase;
+	}
+	.Banner{
+		position:relative;
+		border:solid 10px;
+		background-color: #000000;
+		top:10px;
+		left:0px;
+		width:98%;
+		color:white;
+		text-align: center;
+	}
+	h1{
+		text-transform:uppercase;
+		font-weight:bold;
+		font-family:Helvetica, Arial;
+	}
+	img{
+		position:relative;
+		background-position:center;
+		border-radius:10%;
+		width:250px;
+		height:250%;
+		opacity:0.9;
+		display:inline-block;
+	}
+	.zoom{
+		overflow:visible;
+		margin:10px;
+		display:inline-block;
+	}
+	.zoom img{
+		border-radius:10%;
+		transition: all 0.5s;
+	}
+	.zoom:hover img{
+		transform: scale(1.1);
+		border-radius:100%;
+		opacity:0.9;
+	}
+	.texto{
+		position:relative;
+		size:10px;
+		font-weight:bold;
+		font-family:Helvetica, Arial;
+		text-transform: uppercase;
+	}
+	.header a{
+		float:center;
+		color:#000000;
+		text-align:center;
+		font-size:20px;
+		line-height:32px;
+		border-radius:5%;
+		text-decoration:none;
+		padding:10px;
+	}
+	.header a:hover{
+		background-color:#00BFFF;
+		color:#000000;
+	}
+	.header-right{
+		float:center;
+	}
+	.header a.ativa{
+		background-color:#808080;
+		color:#000000;
+	}
