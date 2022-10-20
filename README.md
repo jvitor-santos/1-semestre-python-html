@@ -1,1 +1,1 @@
-# 1 semestre da Faculdade
+# 1º semestre da Faculdade
